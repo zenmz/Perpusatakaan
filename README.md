@@ -5,35 +5,18 @@ Apakah ini berhasil? <br>
 -   [x] Iya
 -   [ ] Tidak
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Awalnya saya coba-coba aja
-=======
-
-=======
-```
->>>>>>> 573e1164044d31140de9885d6e40ec36b91c6af2
 # For collaboration with Karisma Academy
-```
 
 ## Tambahkan nama kalian yang sudah berhasil commit
 
 1. Azis <br>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 6521ae56472e415a3e3e63bddf34c7c7dd710d4c
-=======
->>>>>>> 573e1164044d31140de9885d6e40ec36b91c6af2
-=======
->>>>>>> a5e5a2052ff1fd566e931bfde117fedaa2e2455b
-=======
 2. Handi <br>
 3. Yovindo Ardana <br>
 4. Hilmi <br>
 5. Arif <br>
 6. Muhammad Dhomanhuri Malik Illyas <br>
 7. Rifqi <br>
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
@@ -52,3 +35,11 @@ Awalnya saya coba-coba aja
 12. agung
 >>>>>>> 4b68c71c447cf1778da1bd1806afa4218c130c72
 >>>>>>> 51ab409cf4826cfe9c2ce3c706a2b8bad60924aa
+=======
+8. Aftiyan <br>
+10. Azzam Al Faruq <br>
+11. Luthfarras <br>
+12. agung
+12. syafaat <br>
+13. Ilham alfa <br>
+>>>>>>> a0c551ae8c16d1bbd784bbbf1581a0422590976a
