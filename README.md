@@ -25,7 +25,7 @@ Apakah ini berhasil? <br>
 6. Muhammad Dhomanhuri Malik Illyas <br>
 7. Rifqi <br>
 8. Aftiyan <br>
-10 . Azzam Al Faruq <br>
+10. Azzam Al Faruq <br>
 11. Luthfarras <br>
 12. agung
 12. syafaat <br>
