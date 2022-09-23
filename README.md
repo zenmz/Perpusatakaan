@@ -129,5 +129,6 @@ Awalnya saya coba-coba aja
 > > > > > > > ======= 13. agung <br> 14. Aftiyan <br> 15. Azzam Al Faruq <br> 16. Luthfarras <br> 17. agung <br> 13. Aftiyan <br> 14. Azzam Al Faruq <br> 15. Luthfarras <br> 16. agung <br> 17. syafaat <br> 18. Ilham alfa <br> 19. Ari Gunawan <br> 20. Arfandi <br>
 > > > > > > > 21.Prasada<br>
 22. zacky
+23. Thor <br>
 > > > > > > > fb893429e07e96b4a040fd6f1dafa3e17516ff24
 >>>>>>> 4f21b766a5078592e88e267184f8a36fa99e723b
