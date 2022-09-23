@@ -16,3 +16,4 @@ Apakah ini berhasil? <br>
 3. Yovindo Ardana <br>
 4. Hilmi <br>
 5. Arif <br>
+6. Azzam Al Faruq <br>
