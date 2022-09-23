@@ -18,7 +18,7 @@
                 </div>
                 <div class="my-4">
                     <label for="" class="form-label">Password</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" name="username">
+                    <input type="password" class="form-control" id="exampleInputEmail1" name="password">
                 </div>
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary">Login</button>
