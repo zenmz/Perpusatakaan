@@ -44,4 +44,8 @@ Awalnya saya coba-coba aja
 10 . Azzam Al Faruq <br>
 11. Luthfarras <br>
 >>>>>>> 67f1b3ca121fe78eb0bb72bbb071073704deb42c
+<<<<<<< HEAD
 12. syafaat <br>
+=======
+12. agung
+>>>>>>> 4b68c71c447cf1778da1bd1806afa4218c130c72
