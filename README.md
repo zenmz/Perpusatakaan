@@ -7,6 +7,13 @@ Apakah ini berhasil? <br>
 - [x] Iya
 - [ ] Tidak
 
+## Chat area
+Someone else: <br>
+```
+Are u okay guys?
+```
+
+
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
