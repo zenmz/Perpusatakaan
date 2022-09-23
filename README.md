@@ -35,13 +35,24 @@ Apakah ini berhasil? <br>
 <<<<<<< HEAD
 12. syafaat <br>
 =======
-12. agung
+13. agung
 >>>>>>> 4b68c71c447cf1778da1bd1806afa4218c130c72
 >>>>>>> 51ab409cf4826cfe9c2ce3c706a2b8bad60924aa
+=======
+<<<<<<< HEAD
+14. Aftiyan <br>
+15. Azzam Al Faruq <br>
+16. Luthfarras <br>
+17. agung
+18. syafaat <br>
+19. Ilham alfa <br>
+20. Ari Gunawan <br>
 =======
 8. Aftiyan <br>
 10. Azzam Al Faruq <br>
 11. Luthfarras <br>
 12. agung
 13. Ilham alfa <br>
+>>>>>>> 5f62fdbd248e31c415cbded33f73a2267c262cca
 >>>>>>> a0c551ae8c16d1bbd784bbbf1581a0422590976a
+14. Arfandi <br>
