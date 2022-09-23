@@ -24,15 +24,10 @@ Apakah ini berhasil? <br>
 10. Luthfarras <br>
 11. dinda <br> 
 12. syafaat <br>
-<<<<<<< HEAD
-=======
 13. agung <br>
-=======
-13. agung
->>>>>>> 07abfd0316ecbc69ffd18cb715f4963c50246e13
 14. Aftiyan <br>
 15. Azzam Al Faruq <br>
 16. Luthfarras <br>
-17. agung
+17. agung <br>
 18. Ilham alfa <br>
 
