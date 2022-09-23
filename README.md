@@ -23,6 +23,7 @@ Awalnya saya coba-coba aja
    <<<<<<< HEAD
    <<<<<<< HEAD
    <<<<<<< HEAD
+   <<<<<<< HEAD
    > > > > > > > # 6521ae56472e415a3e3e63bddf34c7c7dd710d4c
 2. Handi <br>
    > > > > > > > # 573e1164044d31140de9885d6e40ec36b91c6af2
@@ -42,3 +43,30 @@ Awalnya saya coba-coba aja
 > > > > > > >    10 . Azzam Al Faruq <br>
 > > > > > > >    67f1b3ca121fe78eb0bb72bbb071073704deb42c
 > > > > > > >    11.Prasada <br>
+> > > > > > >    =======
+> > > > > > >    <<<<<<< HEAD
+> > > > > > >    <<<<<<< HEAD
+> > > > > > >    <<<<<<< HEAD
+> > > > > > >    6521ae56472e415a3e3e63bddf34c7c7dd710d4c
+> > > > > > >    =======
+> > > > > > >    573e1164044d31140de9885d6e40ec36b91c6af2
+> > > > > > >    =======
+> > > > > > >    a5e5a2052ff1fd566e931bfde117fedaa2e2455b
+> > > > > > >    =======
+> > > > > > > 9. Handi <br>
+> > > > > > > 10. Yovindo Ardana <br>
+> > > > > > > 11. Hilmi <br>
+> > > > > > > 12. Arif <br>
+> > > > > > > 13. Muhammad Dhomanhuri Malik Illyas <br>
+> > > > > > > 14. Rifqi <br>
+> > > > > > >     <<<<<<< HEAD
+
+> > > > > > > # 7f41a65a48218a1d7c159c52b5f3f3153e00925a
+> > > > > > >
+> > > > > > > 8. Aftiyan <br>
+> > > > > > >    10 . Azzam Al Faruq <br>
+> > > > > > > 9. Luthfarras <br>
+> > > > > > >    67f1b3ca121fe78eb0bb72bbb071073704deb42c
+> > > > > > > 10. agung<br>
+> > > > > > >     0adb51e6433d3ca1026b713ec16cd34a31282e12
+> > > > > > >     13.Prasada<br>
