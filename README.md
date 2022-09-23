@@ -1,5 +1,8 @@
 # Halo
 
+![](https://www.karismaacademy.com/wp-content/themes/karisma-academy/images/slider/home/top/robot.jpg)
+
+
 Apakah ini berhasil? <br>
 
 -   [x] Iya
