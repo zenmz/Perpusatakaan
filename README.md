@@ -21,7 +21,7 @@ Awalnya saya coba-coba aja
 >>>>>>> d724dea12dd847a7a65b6bdcf342bcd9a52108b9
 # For collaboration with Karisma Academy
 
-## Tambahkan nama kalian yang sudah berhasil commit
+## Tambahkan nama kalian yang sudah berhasil commit:
 
 1. Azis <br>
 <<<<<<< HEAD
