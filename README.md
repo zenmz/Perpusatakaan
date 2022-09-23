@@ -35,11 +35,7 @@ Apakah ini berhasil? <br>
 <<<<<<< HEAD
 12. syafaat <br>
 =======
-13. agung
->>>>>>> 4b68c71c447cf1778da1bd1806afa4218c130c72
->>>>>>> 51ab409cf4826cfe9c2ce3c706a2b8bad60924aa
-=======
-<<<<<<< HEAD
+13. agung <br>
 14. Aftiyan <br>
 15. Azzam Al Faruq <br>
 16. Luthfarras <br>
