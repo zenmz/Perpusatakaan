@@ -2,7 +2,6 @@
 
 ![](https://www.karismaacademy.com/wp-content/themes/karisma-academy/images/slider/home/top/robot.jpg)
 
-
 Apakah ini berhasil? <br>
 
 -   [x] Iya
@@ -22,12 +21,18 @@ Apakah ini berhasil? <br>
 8. Aftiyan <br>
 9. Azzam Al Faruq <br>
 10. Luthfarras <br>
-11. dinda <br> 
+11. dinda <br>
 12. syafaat <br>
 13. agung <br>
 14. Aftiyan <br>
 15. Azzam Al Faruq <br>
 16. Luthfarras <br>
 17. agung <br>
+13. Aftiyan <br>
+14. Azzam Al Faruq <br>
+15. Luthfarras <br>
+16. agung <br>
+17. syafaat <br>
 18. Ilham alfa <br>
-
+19. Ari Gunawan <br>
+20. Arfandi <br>
