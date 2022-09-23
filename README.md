@@ -1,12 +1,14 @@
 # Halo
 
 Apakah ini berhasil? <br>
-- [x] Iya
-- [ ] Tidak
 
+-   [x] Iya
+-   [ ] Tidak
 
 # For collaboration with Karisma Academy
 
 ## Tambahkan nama kalian yang sudah berhasil commit
+
 1. Azis <br>
-1. Handi <br>
+2. Handi <br>
+3. Yovindo Ardana <br>
