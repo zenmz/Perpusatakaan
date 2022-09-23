@@ -24,10 +24,8 @@ Awalnya saya coba-coba aja
 <<<<<<< HEAD
 >>>>>>> 6521ae56472e415a3e3e63bddf34c7c7dd710d4c
 =======
-2. Handi <br>
 >>>>>>> 573e1164044d31140de9885d6e40ec36b91c6af2
 =======
-2. Hnd <br>
 >>>>>>> a5e5a2052ff1fd566e931bfde117fedaa2e2455b
 =======
 2. Handi <br>
@@ -42,7 +40,15 @@ Awalnya saya coba-coba aja
 >>>>>>> 7f41a65a48218a1d7c159c52b5f3f3153e00925a
 =======
 8. Aftiyan <br>
-9 . Azzam Al Faruq <br>
+9. Azzam Al Faruq <br>
 10. Luthfarras <br>
 >>>>>>> 67f1b3ca121fe78eb0bb72bbb071073704deb42c
+<<<<<<< HEAD
 11. dinda <br> 
+=======
+<<<<<<< HEAD
+12. syafaat <br>
+=======
+12. agung
+>>>>>>> 4b68c71c447cf1778da1bd1806afa4218c130c72
+>>>>>>> 51ab409cf4826cfe9c2ce3c706a2b8bad60924aa
