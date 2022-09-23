@@ -34,7 +34,7 @@ Awalnya saya coba-coba aja
    > > > > > > > # 573e1164044d31140de9885d6e40ec36b91c6af2
 
    > > > > > > > # a5e5a2052ff1fd566e931bfde117fedaa2e2455b
-4. Handi <br>
+4. Handi
 5. Yovindo Ardana <br>
 6. Hilmi <br>
 7. Arif <br>
