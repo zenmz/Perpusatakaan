@@ -1,10 +1,13 @@
 # Halo
 
+![](https://www.karismaacademy.com/wp-content/themes/karisma-academy/images/slider/home/top/robot.jpg)
+
 Apakah ini berhasil? <br>
 
 - [x] Iya
 - [ ] Tidak
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Awalnya saya coba-coba aja
@@ -14,12 +17,14 @@ Awalnya saya coba-coba aja
 
 ```
 >>>>>>> 573e1164044d31140de9885d6e40ec36b91c6af2
+=======
+>>>>>>> d724dea12dd847a7a65b6bdcf342bcd9a52108b9
 # For collaboration with Karisma Academy
-```
 
 ## Tambahkan nama kalian yang sudah berhasil commit
 
 1. Azis <br>
+<<<<<<< HEAD
    <<<<<<< HEAD
    <<<<<<< HEAD
    <<<<<<< HEAD
@@ -49,3 +54,19 @@ Awalnya saya coba-coba aja
 13. agung
 14. prasada
     > > > > > > > 4b68c71c447cf1778da1bd1806afa4218c130c72
+=======
+2. Handi <br>
+3. Yovindo Ardana <br>
+4. Hilmi <br>
+5. Arif <br>
+6. Muhammad Dhomanhuri Malik Illyas <br>
+7. Rifqi <br>
+8. Aftiyan <br>
+10. Azzam Al Faruq <br>
+11. Luthfarras <br>
+12. agung
+12. syafaat <br>
+13. Ilham alfa <br>
+>>>>>>> d724dea12dd847a7a65b6bdcf342bcd9a52108b9
+14. prasada<br>
+```
