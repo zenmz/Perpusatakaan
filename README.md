@@ -5,15 +5,7 @@ Apakah ini berhasil? <br>
 -   [x] Iya
 -   [ ] Tidak
 
-<<<<<<< Awalnya saya coba-coba aja
-
-=======
-
-=======
-```
->>>>>>> 573e1164044d31140de9885d6e40ec36b91c6af2
 # For collaboration with Karisma Academy
-```
 
 ## Tambahkan nama kalian yang sudah berhasil commit
 
@@ -25,7 +17,7 @@ Apakah ini berhasil? <br>
 6. Muhammad Dhomanhuri Malik Illyas <br>
 7. Rifqi <br>
 8. Aftiyan <br>
-10 . Azzam Al Faruq <br>
+10. Azzam Al Faruq <br>
 11. Luthfarras <br>
 12. agung
 12. syafaat <br>
