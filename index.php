@@ -1,4 +1,6 @@
 <?php
+
+session_start();
 include "config.php";
 ?>
 <!DOCTYPE html>
@@ -44,6 +46,16 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
 
     $query = "SELECT * FROM user WHERE username = $username AND password = $password";
-    mysqli_query($conn, $query);
+    $sql = mysqli_query($conn, $query);
+    $data = mysqli_fetch_assoc($sql);
+    $nama = $data['username'];
+    $pass = $data['password'];
+    $level = $data['level'];
+    if($username == $nama && $password == $pass){
+        $level = $_SESSION['level'];
+        header('location:home.php');
+    }else {
+        header('location:index.php');
+    }
 }
 ?>
