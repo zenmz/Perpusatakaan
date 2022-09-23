@@ -43,6 +43,5 @@ Apakah ini berhasil? <br>
 10. Azzam Al Faruq <br>
 11. Luthfarras <br>
 12. agung
-12. syafaat <br>
 13. Ilham alfa <br>
 >>>>>>> a0c551ae8c16d1bbd784bbbf1581a0422590976a
