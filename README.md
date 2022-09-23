@@ -2,7 +2,6 @@
 
 ![](https://www.karismaacademy.com/wp-content/themes/karisma-academy/images/slider/home/top/robot.jpg)
 
-
 Apakah ini berhasil? <br>
 
 -   [x] Iya
@@ -22,8 +21,9 @@ Apakah ini berhasil? <br>
 8. Aftiyan <br>
 9. Azzam Al Faruq <br>
 10. Luthfarras <br>
-11. dinda <br> 
+11. dinda <br>
 12. syafaat <br>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 12. agung
@@ -48,10 +48,23 @@ Apakah ini berhasil? <br>
 14. Adam <br>
 =======
 13. agung
+=======
+13. agung <br>
+>>>>>>> 134fc2a35d9dc8f3df314e1c189c49d9342cf7a4
 14. Aftiyan <br>
 15. Azzam Al Faruq <br>
 16. Luthfarras <br>
-17. agung
+17. agung <br>
+13. Aftiyan <br>
+14. Azzam Al Faruq <br>
+15. Luthfarras <br>
+16. agung <br>
+17. syafaat <br>
 18. Ilham alfa <br>
+<<<<<<< HEAD
 
 >>>>>>> 208be1bccb1d7c779ebfda6a4f36e84431e824c7
+=======
+19. Ari Gunawan <br>
+20. Arfandi <br>
+>>>>>>> 134fc2a35d9dc8f3df314e1c189c49d9342cf7a4
