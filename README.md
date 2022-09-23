@@ -8,6 +8,6 @@ Apakah ini berhasil? <br>
 # For collaboration with Karisma Academy
 ```
 
-## Tambahkan nama kalian yang sudah berhasil commit
+## Tambahkan nama kalian yang sudah berhasil commit:
 1. Azis <br>
 2. Hnd <br>
