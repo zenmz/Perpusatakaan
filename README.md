@@ -9,3 +9,4 @@ Apakah ini berhasil? <br>
 
 ## Tambahkan nama kalian yang sudah berhasil commit
 1. Azis <br>
+1. Handi <br>
