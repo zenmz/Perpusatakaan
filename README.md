@@ -2,7 +2,6 @@
 
 ![](https://www.karismaacademy.com/wp-content/themes/karisma-academy/images/slider/home/top/robot.jpg)
 
-
 Apakah ini berhasil? <br>
 
 -   [x] Iya
@@ -19,40 +18,16 @@ Apakah ini berhasil? <br>
 5. Arif <br>
 6. Muhammad Dhomanhuri Malik Illyas <br>
 7. Rifqi <br>
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-
->>>>>>> 7f41a65a48218a1d7c159c52b5f3f3153e00925a
-=======
 8. Aftiyan <br>
 9. Azzam Al Faruq <br>
 10. Luthfarras <br>
->>>>>>> 67f1b3ca121fe78eb0bb72bbb071073704deb42c
-<<<<<<< HEAD
-11. dinda <br> 
-=======
-<<<<<<< HEAD
+11. dinda <br>
 12. syafaat <br>
-=======
-13. agung
->>>>>>> 4b68c71c447cf1778da1bd1806afa4218c130c72
->>>>>>> 51ab409cf4826cfe9c2ce3c706a2b8bad60924aa
-=======
-<<<<<<< HEAD
-14. Aftiyan <br>
-15. Azzam Al Faruq <br>
-16. Luthfarras <br>
-17. agung
-18. syafaat <br>
-19. Ilham alfa <br>
-20. Ari Gunawan <br>
-=======
-8. Aftiyan <br>
-10. Azzam Al Faruq <br>
-11. Luthfarras <br>
-12. agung
-13. Ilham alfa <br>
->>>>>>> 5f62fdbd248e31c415cbded33f73a2267c262cca
->>>>>>> a0c551ae8c16d1bbd784bbbf1581a0422590976a
-14. Arfandi <br>
+13. Aftiyan <br>
+14. Azzam Al Faruq <br>
+15. Luthfarras <br>
+16. agung
+17. syafaat <br>
+18. Ilham alfa <br>
+19. Ari Gunawan <br>
+20. Arfandi <br>
