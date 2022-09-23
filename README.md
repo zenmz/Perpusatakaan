@@ -5,15 +5,7 @@ Apakah ini berhasil? <br>
 -   [x] Iya
 -   [ ] Tidak
 
-<<<<<<< Awalnya saya coba-coba aja
-
-=======
-
-=======
-```
->>>>>>> 573e1164044d31140de9885d6e40ec36b91c6af2
 # For collaboration with Karisma Academy
-```
 
 ## Tambahkan nama kalian yang sudah berhasil commit
 
