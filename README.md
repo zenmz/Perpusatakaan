@@ -36,5 +36,9 @@ Awalnya saya coba-coba aja
 5. Arif <br>
 6. Muhammad Dhomanhuri Malik Illyas <br>
 7. Rifqi <br>
+<<<<<<< HEAD
 
 >>>>>>> 7f41a65a48218a1d7c159c52b5f3f3153e00925a
+=======
+8. Aftiyan <br>
+>>>>>>> 67f1b3ca121fe78eb0bb72bbb071073704deb42c
