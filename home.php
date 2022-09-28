@@ -21,36 +21,52 @@ include "config.php";
 
 <body>
     <div class="d-flex" id="wrapper">
-        <div class="sidebar-heading border-bottom bg-dark"></div>
-        <div class="list-group list-group-flush">
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark p-3">Dashboard</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark p-3">Data</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark p-3">Peminjaman</a>
-            <a href="#" class="list-group-item list-group-item-action list-group-item-dark p-3">Pengembalian</a>
-        </div>
-    </div>
-
-    <div id="page-content-wrapper">
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-primary border-bottom">
-            <div class="container-fluid">
-                <button class="btn btn-primary" id="sidebarToggle">Penutup</button>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Tes</button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Data</a></li>
-                        <li class="nav-item dropdown">
-
-                        </li>
-                    </ul>
-                </div>
+        <!-- SIDEBAR -->
+        <div class="border-end bg-dark" id="sidebar-wrapper">
+            <div class="sidebar-heading border-bottom bg-dark text-white">PERPUSTAKAAN</div>
+            <div class="list-group list-group-flush">
+                <a class="list-group-item list-group-item-action list-group-item-dark p-3">Dasboard</a>
+                <a class="list-group-item list-group-item-action list-group-item-dark p-3" data-bs-toggle="collapse" href="#data">Kelola Data</a>
+                    <div class="collapse" id="data">
+                        <div class="card card-body">
+                        <a class="list-group-item list-group-item-action list-group-item-dark p-3" href="#">Data Buku</a>
+                        <a class="list-group-item list-group-item-action list-group-item-dark p-3" href="#">Data Anggota</a>
+                        </div>
+                    </div>
+                
+                <a class="list-group-item list-group-item-action list-group-item-dark p-3">Sirkulasi</a>
+                <a class="list-group-item list-group-item-action list-group-item-dark p-3" data-bs-toggle="collapse" href="#log">Log</a>
             </div>
-        </nav>
-    </div>
-    <div class="container mt-3">
+        </div>
+
+            <div id="page-content-wrapper">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+                    <div class="container-fluid">
+                        <button class="btn btn-dark" id="sidebarToggle">Haha</button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Data</a></li>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"></a>
+                                    <div class="dropdown-menu dropdown-menu-end">
+                                        <a href="#" class="dropdown-item">1</a>
+                                        <a href="#" class="dropdown-item">2</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a href="" class="dropdown-item">Logout</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- ISI content -->
+        <div class="container mt-3">
         <h2 class="text-center">DAFTAR BUKU</h2>
-        <a href="" class="btn btn-primary">Tambah Buku</a>
+        <a href="create.php" class="btn btn-primary">Tambah Buku</a>
         <table class="table table-striped table-hover">
             <thead>
                 <tr>
@@ -110,6 +126,15 @@ include "config.php";
             </ul>
         </nav>
     </div>
+        </div>
+    </div>
+        
+
+
+
+
+
+   
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
