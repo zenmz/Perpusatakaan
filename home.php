@@ -64,7 +64,7 @@ include "config.php";
             <!-- ISI content -->
         <div class="container mt-3">
         <h2 class="text-center">DAFTAR BUKU</h2>
-        <a href="" class="btn btn-primary">Tambah Buku</a>
+        <a href="create.php" class="btn btn-primary">Tambah Buku</a>
         <table class="table table-striped table-hover">
             <thead>
                 <tr>
