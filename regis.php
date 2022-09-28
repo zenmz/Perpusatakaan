@@ -50,16 +50,17 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
     $cp = $_POST['cpassword'];
 
-    if($cp == $password){
-        $query = "INSERT INTO users(username, password) VALUES('$username', '$password')";
-        $sql = mysqli_query($conn, $query);
-        $data = mysqli_fetch_assoc($sql);
+    $valid = mysqli_num_rows(mysqli_query($conn, "SELECT * FROM users WHERE username='$username'"));
+    if($valid > 0){
+        echo "<script>alert('Username telah digunakan!')</script>";
+    } else if ($cp != $password) {
+        echo "<script>alert('Password tidak sesuai!')</script>";
     } else {
-        header('location:regis.php');
+        $query2 = mysqli_query($conn, "INSERT INTO users(username, password) VALUES('$username', '$password')");
     }
-
-    if($query) {
-        echo "<script>window.location.href='index.php'</script>";
+        if ($query2) {
+             header('location:index.php');
+        }
+    
     }
-}
 ?>
