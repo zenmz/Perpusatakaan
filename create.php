@@ -1,6 +1,24 @@
 <?php
 include 'config.php';
+$hasil = mysqli_query($conn,"SELECT max(kode_buku) as maxKode FROM buku");
+$data = mysqli_fetch_array($hasil);
+$kodeBuku = $data['maxKode'];
 
+// mengambil angka atau bilangan dalam kode anggota terbesar,
+// dengan cara mengambil substring mulai dari karakter ke-1 diambil 6 karakter
+// misal 'BRG001', akan diambil '001'
+// setelah substring bilangan diambil lantas dicasting menjadi integer
+$noUrut = (int) substr($kodeBuku, 3, 3);
+
+// bilangan yang diambil ini ditambah 1 untuk menentukan nomor urut berikutnya
+$noUrut++;
+
+// membentuk kode anggota baru
+// perintah sprintf("%03s", $noUrut); digunakan untuk memformat string sebanyak 3 karakter
+// misal sprintf("%03s", 12); maka akan dihasilkan '012'
+// atau misal sprintf("%03s", 1); maka akan dihasilkan string '001'
+$char = "BOOK";
+$kodeBuku = $char . sprintf("%03s", $noUrut);
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +46,7 @@ include 'config.php';
 				<tbody>
 					<tr>
 						<td>Kode Buku</td>
-						<td><input type="text" class="form-control" name="kode_buku" placeholder="Masukkan Kode Buku"></input></td>
+						<td><input type="text" class="form-control" name="kode_buku" value="<?= $kodeBuku ?>"></input></td>
 					</tr>
 					<tr>
 						<td>Judul Buku</td>
@@ -80,7 +98,7 @@ if (isset($_POST['submit'])) {
 	$halaman = $_POST['jumlah_halaman'];
 
 	$query_insert = mysqli_query($conn, "INSERT INTO buku
-	VALUES ('$kode', '$judul', '$kategori', '$pengarang', '$penerbit', '$halaman')");
+	VALUES ('','$kode', '$judul', '$kategori', '$pengarang', '$penerbit', '$halaman')");
 
 	echo "<script>alert('Data telah disimpan');
 	document.location='home.php'</script>";

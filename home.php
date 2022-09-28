@@ -93,8 +93,8 @@ include "config.php";
                     $jumlah_data = mysqli_num_rows($data);
                     $total_halaman = ceil($jumlah_data / $batas);
 
-                    $result = mysqli_query($conn, "SELECT * FROM buku LIMIT $halaman_awal, $batas");
-                    $nomor = $halaman_awal++;
+                    $result = mysqli_query($conn, "SELECT * FROM buku ORDER BY id DESC LIMIT $halaman_awal, $batas");
+                    $nomor = $halaman_awal+1;
                     while ($data = mysqli_fetch_array($result)) : ?>
                         <tr>
                             <td><?= $nomor ?></td>
