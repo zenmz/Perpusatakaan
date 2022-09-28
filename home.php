@@ -48,7 +48,7 @@ include "config.php";
                                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                                 <li class="nav-item"><a href="#" class="nav-link">Data</a></li>
                                 <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"></a>
+                                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown">23</a>
                                     <div class="dropdown-menu dropdown-menu-end">
                                         <a href="#" class="dropdown-item">1</a>
                                         <a href="#" class="dropdown-item">2</a>
@@ -75,6 +75,7 @@ include "config.php";
                     <th>Pengarang Buku</th>
                     <th>Penerbit Buku</th>
                     <th>Jumlah Halaman</th>
+                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
@@ -90,8 +91,13 @@ include "config.php";
                     <td><?= $data['kategori_buku'] ?></td>
                     <td><?= $data['pengarang_buku'] ?></td>
                     <td><?= $data['penerbit_buku'] ?></td>
-                    <td><?= $data['jumlah_halaman']; } ?></td>
+                    <td><?= $data['jumlah_halaman'];  ?></td>
+                    <td><a href="edit.php?id=<?php echo $data['id'];?>"><button class="btn btn-primary">Edit</button></a></td>
+                    <td><a href="delete.php?id=<?php echo $data['id'];?>"><button class="btn btn-danger">Delete</button></a></td>
                 </tr>
+            <?php
+        }
+        ?>
             </tbody>
         </table>
     </div>
