@@ -37,7 +37,7 @@ include "config.php";
             </div>
         </div>
 
-            <div id="page-content-wrapper">
+            <div id="page-content-wrapper" style="position: fixed; right: 0;">
                 <!-- Navbar -->
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
                     <div class="container-fluid">
