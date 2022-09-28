@@ -80,12 +80,33 @@ include "config.php";
             </thead>
             <tbody>
             <?php
+                    $batas = 10; //Batas data yang akan di munculkan
+
+                    //proses mendapatkan url halaman
+                    if(isset($_GET['halaman'])){
+                        $halaman = (int)$_GET['halaman'];
+                    }else{
+                        $halaman = 1;
+                    }
+
                     
-                    $ambil = mysqli_query($conn, "SELECT * FROM buku");
-                    while ($data = mysqli_fetch_array($ambil)) {
+                    if($halaman > 1){
+                        $halaman_awal = ($halaman * $batas) - $batas;
+                    }else{
+                        $halaman_awal = 0;
+                    }
+
+                    $data = mysqli_query($conn, "SELECT * FROM buku");
+                    $jumlah_data = mysqli_num_rows($data);
+                    $total_halaman = ceil($jumlah_data/$batas);
+
+                    $result = mysqli_query($conn,"SELECT * FROM buku ORDER BY id LIMIT $halaman_awal,$batas");
+                    $no = $halaman_awal+1;
+                    // var_dump($halaman);die;
+                    while ($data = mysqli_fetch_array($result)) {
                     ?>
                 <tr>
-                    <td><?= $data['id'] ?></td>
+                    <td><?= $no?></td>
                     <td><?= $data['kode_buku'] ?></td>
                     <td><?= $data['judul_buku'] ?></td>
                     <td><?= $data['kategori_buku'] ?></td>
@@ -96,7 +117,7 @@ include "config.php";
                     <td><a href="delete.php?id=<?php echo $data['id'];?>"><button class="btn btn-danger">Delete</button></a></td>
                 </tr>
             <?php
-        }
+        $no++;}
         ?>
             </tbody>
         </table>
