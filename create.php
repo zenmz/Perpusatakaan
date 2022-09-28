@@ -76,12 +76,11 @@ if (isset($_POST['submit'])) {
 	$judul = $_POST['judul_buku'];
 	$kategori = $_POST['kategori_buku'];
 	$pengarang = $_POST['pengarang_buku'];
-	$penerbit = $_POST['penerbit_buku'];
+	$penerbit = $_POST['Penerbit_buku'];
 	$halaman = $_POST['halaman_buku'];
 
-	$query_insert = mysqli_query($conn, "INSERT INTO buku 
-	(kode_buku, judul_buku, kategori_buku, pengarang_buku, penerbit_buku, halaman buku)
-	VALUE ('$kode', '$judul', '$kategori', '$pengarang', '$penerbit', '$halaman')");
+	$query_insert = mysqli_query($conn, "INSERT INTO buku
+	VALUES ('', '$kode', '$judul', '$kategori', '$pengarang', '$penerbit', '$halaman')");
 
 	echo "<script>alert('Data telah disimpan');
 	document.location='home.php'</script>";
