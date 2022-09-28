@@ -2,6 +2,29 @@
 
 session_start();
 include "config.php";
+if($_SESSION['username']){
+    header('location:home.php');
+}
+if (isset($_POST['submit'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    
+    $sql = mysqli_query($conn, "SELECT * FROM users WHERE username = '$username'");
+    $data = mysqli_fetch_assoc($sql);
+    // var_dump($data);die;
+    if($data['username']){
+        if($data['password'] == $password){
+            $_SESSION['username'] = $username;
+            echo "<script>alert('Login Berhasil');
+            window.location.replace('home.php');</script>";
+        }else{
+            echo "<script>alert('Password Salah')</script>";
+        }
+    }else{
+        echo "<script>alert('Username tidak terdaftar')</script>";
+    }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -41,22 +64,3 @@ include "config.php";
 
 </html>
 
-<?php
-if (isset($_POST['submit'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    $query = "SELECT * FROM users WHERE username = $username AND password = $password";
-    $sql = mysqli_query($conn, $query);
-    $data = mysqli_fetch_assoc($sql);
-    $nama = $data['username'];
-    $pass = $data['password'];
-    $level = $data['level'];
-    if($username == $nama && $password == $pass){
-        $level = $_SESSION['level'];
-        header('location:home.php');
-    }else {
-        header('location:index.php');
-    }
-}
-?>

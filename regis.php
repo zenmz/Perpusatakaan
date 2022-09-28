@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
     } else if ($cp != $password) {
         echo "<script>alert('Password tidak sesuai!')</script>";
     } else {
-        $query2 = mysqli_query($conn, "INSERT INTO users(username, password) VALUES('$username', '$password')");
+        $query2 = mysqli_query($conn, "INSERT INTO users(username, password, level) VALUES('$username', '$password','siswa')");
     }
         if ($query2) {
              header('location:index.php');
