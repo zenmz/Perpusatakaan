@@ -44,11 +44,11 @@ include 'config.php';
 					</tr>
 					<tr>
 						<td>Penerbit Buku</td>
-						<td><input type="text" class="form-control" name="Penerbit_buku" placeholder="Masukkan Penerbit Buku"></input></td>
+						<td><input type="text" class="form-control" name="penerbit_buku" placeholder="Masukkan Penerbit Buku"></input></td>
 					</tr>
 					<tr>
 						<td>Jumlah Halaman</td>
-						<td><input type="number" class="form-control" name="halaman_buku" placeholder="Masukkan Halaman Buku"></input></td>
+						<td><input type="number" class="form-control" name="jumlah_halaman" placeholder="Masukkan Halaman Buku"></input></td>
 					</tr>
 				</tbody>
 			</table>
@@ -76,11 +76,11 @@ if (isset($_POST['submit'])) {
 	$judul = $_POST['judul_buku'];
 	$kategori = $_POST['kategori_buku'];
 	$pengarang = $_POST['pengarang_buku'];
-	$penerbit = $_POST['Penerbit_buku'];
-	$halaman = $_POST['halaman_buku'];
+	$penerbit = $_POST['penerbit_buku'];
+	$halaman = $_POST['jumlah_halaman'];
 
 	$query_insert = mysqli_query($conn, "INSERT INTO buku
-	VALUES ('', '$kode', '$judul', '$kategori', '$pengarang', '$penerbit', '$halaman')");
+	VALUES ('$kode', '$judul', '$kategori', '$pengarang', '$penerbit', '$halaman')");
 
 	echo "<script>alert('Data telah disimpan');
 	document.location='home.php'</script>";
