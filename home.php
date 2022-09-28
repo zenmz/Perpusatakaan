@@ -2,9 +2,9 @@
 session_start();
 include "config.php";
 
-if(!$_SESSION['level']){
-    header('location:index.php');
-}
+// if(!$_SESSION['level']){
+//     header('location:index.php');
+// }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -45,6 +45,39 @@ if(!$_SESSION['level']){
                 </div>
             </div>
         </nav>
+    </div>
+    <div class="container mt-3">
+        <h2 class="text-center">DAFTAR BUKU</h2>
+        <a href="" class="btn btn-primary">Tambah Buku</a>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Kode Buku</th>
+                    <th>Judul Buku</th>
+                    <th>Kategori Buku</th>
+                    <th>Pengarang Buku</th>
+                    <th>Penerbit Buku</th>
+                    <th>Jumlah Halaman</th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php
+                    
+                    $ambil = mysqli_query($conn, "SELECT * FROM buku");
+                    while ($data = mysqli_fetch_array($ambil)) {
+                    ?>
+                <tr>
+                    <td><?= $data['id'] ?></td>
+                    <td><?= $data['kode_buku'] ?></td>
+                    <td><?= $data['judul_buku'] ?></td>
+                    <td><?= $data['kategori_buku'] ?></td>
+                    <td><?= $data['pengarang_buku'] ?></td>
+                    <td><?= $data['penerbit_buku'] ?></td>
+                    <td><?= $data['jumlah_halaman']; } ?></td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
